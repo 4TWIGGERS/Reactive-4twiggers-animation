@@ -52,7 +52,7 @@ const Circle = ({ user, left, top, open, index, uri, radius, onGestureEvent, rot
 
  const openedModal = () => {
   const withSpringOpt = { mass: 2, stiffness: 80, damping: index + 1 * 15 };
-  const withSpring2Opt = { stiffness: 100, mass: 2 };
+  const withSpring2Opt = { stiffness: 100, mass: 3 };
 
   LeftValue.value = withDelay(
    50,

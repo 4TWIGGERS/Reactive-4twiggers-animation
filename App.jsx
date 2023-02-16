@@ -73,17 +73,15 @@ const App = () => {
 
  const circleAnimatedStyle = useAnimatedStyle(() => {
   const bottomPosition = Platform.OS === 'web' ? height - 350 : height - 200;
-  const widthPosition = Platform.OS === 'web' ? width + 100 : RADIUS * 2;
   const leftPosition = Platform.OS === 'web' ? -100 : -CENTER_POSITION / 2;
+  const widthPosition = Platform.OS === 'web' ? width + 100 : RADIUS * 2;
   const heightPosition = Platform.OS === 'web' ? height : RADIUS * 2 + 300;
 
   const topStyle = interpolate(scale.value, [0, 1], [bottomPosition, -80]);
   const bottomStyle = interpolate(scale.value, [0, 1], [0, 0]);
   const heightStyle = interpolate(scale.value, [0, 1], [RADIUS * 2, heightPosition]);
   const widthStyle = interpolate(scale.value, [0, 1], [RADIUS * 2, widthPosition]);
-
   const leftStyle = interpolate(scale.value, [0, 1], [-CENTER_POSITION / 2, leftPosition]);
-  const radiusStyle = interpolate(scale.value, [0, 1], [RADIUS, 0]);
 
   return {
    transform: [
@@ -96,7 +94,6 @@ const App = () => {
    bottom: bottomStyle,
    top: topStyle,
    left: leftStyle,
-   borderRadius: radiusStyle,
   };
  });
 
@@ -271,6 +268,7 @@ const styles = StyleSheet.create({
   botom: -100,
   position: 'absolute',
   backgroundColor: '#102123',
+  borderRadius: RADIUS,
  },
  closeButton: {
   position: 'absolute',

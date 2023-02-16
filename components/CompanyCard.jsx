@@ -20,18 +20,18 @@ const CompanyCard = () => {
 
    <View style={styles.cardContainer}>
     <LogoSvg style={styles.logoStyle} />
-    <Text style={styles.textStyle}>4twiggers</Text>
+    <Text style={styles.textStyle}>4Twiggers</Text>
 
     <View style={{ paddingHorizontal: 24 }}>
      <Text style={styles.commonTextStyle}>
-      A partnership of software developers and designers based in Tbilisi.
+      4Twiggers is a preeminent software development company headquartered in the bustling city of
+      Tbilisi, Georgia.
      </Text>
+
      <Text style={styles.commonTextStyle}>
-      We elevate startups, SMEs and large organizations by helping secure innovative, intuitive and
-      cutting-edge products, tailored to individual business needs.
-     </Text>
-     <Text style={styles.commonTextStyle}>
-      Always on the lookout for new projects and new talents.
+      Our team consists of experienced developers and designers who are dedicated to offering
+      innovative, practical, and user-friendly mobile app, desktop app, and web portal development
+      services to clients from abroad spectrum of industries.
      </Text>
     </View>
    </View>

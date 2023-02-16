@@ -20,7 +20,7 @@ export const users = [
  {
   id: 4,
   name: 'Nick Gabunia',
-  role: 'Front-End Developer',
+  role: 'Chief Executive Officer',
   uri: require('./assets/users/user7.png'),
  },
  {
@@ -50,8 +50,8 @@ export const users = [
 
  {
   id: 9,
-  name: 'George Qarqashadze',
-  role: 'Chief Executive Officer',
+  name: 'Konstantine Kokochashvili',
+  role: 'Product Owner',
   uri: require('./assets/users/user7.png'),
  },
 ];
