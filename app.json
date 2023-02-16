@@ -1,31 +1,42 @@
 {
- "expo": {
-  "name": "Reactive-4Twiggers-Animation",
-  "slug": "Reactive-4Twiggers-Animation",
-  "version": "1.0.0",
-  "orientation": "portrait",
-  "icon": "./assets/icon.png",
-  "userInterfaceStyle": "light",
-  "splash": {
-   "image": "./assets/splash.png",
-   "resizeMode": "contain",
-   "backgroundColor": "#ffffff"
-  },
-  "updates": {
-   "fallbackToCacheTimeout": 0
-  },
-  "assetBundlePatterns": ["**/*"],
-  "ios": {
-   "supportsTablet": true
-  },
-  "android": {
-   "adaptiveIcon": {
-    "foregroundImage": "./assets/adaptive-icon.png",
-    "backgroundColor": "#FFFFFF"
-   }
-  },
-  "web": {
-   "favicon": "./assets/favicon.png"
+  "expo": {
+    "name": "Reactive-4Twiggers-Animation",
+    "slug": "Reactive-4Twiggers-Animation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/29377836-5564-40e2-aee7-84995c31c690"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29377836-5564-40e2-aee7-84995c31c690"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
- }
 }
